@@ -10,8 +10,8 @@ namespace ADA.ShoppingKart.Database
 
         }
 
-        public DbSet<User> Actions { get; set; }
-        public DbSet<Product> Modules { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Product> Products{ get; set; }
 
     }
 }

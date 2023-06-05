@@ -33,6 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ADA.ShoppingKart.Business\ADA.ShoppingKart.Business.csproj" />
     <ProjectReference Include="..\ADA.ShoppingKart.Database\ADA.ShoppingKart.Database.csproj" />
     <ProjectReference Include="..\ADA.ShoppingKart.Models\ADA.ShoppingKart.Models.csproj" />
   </ItemGroup>

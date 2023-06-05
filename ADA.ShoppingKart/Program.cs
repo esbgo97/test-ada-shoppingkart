@@ -1,7 +1,10 @@
 
+using Microsoft.Extensions.Configuration;
+
 using ADA.ShoppingKart.Infraestructure.Configurations;
 using ADA.ShoppingKart.Database;
-using Microsoft.Extensions.Configuration;
+using ADA.ShoppingKart.Repositories;
+using ADA.ShoppingKart.Business;
 
 namespace ADA.ShoppingKart
 {
@@ -18,6 +21,8 @@ namespace ADA.ShoppingKart
             builder.Services.AddCorsConfig();
             builder.Services.AddJWTConfig(builder.Configuration.GetValue<string>("SecretKey"));
             builder.Services.AddDatabaseConfig(builder.Configuration.GetConnectionString("DefaultConnection"));
+            builder.Services.AddRepositories();
+            builder.Services.AddBusiness();
 
             var app = builder.Build();
 

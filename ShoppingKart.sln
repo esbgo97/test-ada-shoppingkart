@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADA.ShoppingKart.Models", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADA.ShoppingKart.Database", "ADA.ShoppingKart.Database\ADA.ShoppingKart.Database.csproj", "{DE00F80A-97E4-4BAD-8DD8-53DBFFDD067C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADA.ShoppingKart.Repositories", "ADA.ShoppingKart.Repositories\ADA.ShoppingKart.Repositories.csproj", "{6CFD9609-71EC-4A3C-B109-D78E0B4E9187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADA.ShoppingKart.Business", "ADA.ShoppingKart.Business\ADA.ShoppingKart.Business.csproj", "{AAB7F16E-0417-49C3-BED6-EBF9467995A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{DE00F80A-97E4-4BAD-8DD8-53DBFFDD067C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE00F80A-97E4-4BAD-8DD8-53DBFFDD067C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE00F80A-97E4-4BAD-8DD8-53DBFFDD067C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CFD9609-71EC-4A3C-B109-D78E0B4E9187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFD9609-71EC-4A3C-B109-D78E0B4E9187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFD9609-71EC-4A3C-B109-D78E0B4E9187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFD9609-71EC-4A3C-B109-D78E0B4E9187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB7F16E-0417-49C3-BED6-EBF9467995A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB7F16E-0417-49C3-BED6-EBF9467995A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB7F16E-0417-49C3-BED6-EBF9467995A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB7F16E-0417-49C3-BED6-EBF9467995A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

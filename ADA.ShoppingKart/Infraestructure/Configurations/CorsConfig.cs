@@ -17,7 +17,7 @@
             });
         }
 
-        public static void UseCorsConfig(this IApplicationBuilder app, IWebHostEnvironment env = null)
+        public static void UseCorsConfig(this IApplicationBuilder app, IWebHostEnvironment? env = null)
         {
             app.UseCors("DefaultPolicy");
         }
